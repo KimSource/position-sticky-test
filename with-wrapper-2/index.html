@@ -22,6 +22,9 @@
       .wrapper-outer {
         height: 100%;
         overflow: auto;
+        transform: translateZ(0);
+        will-change: scroll-position;
+        -webkit-overflow-scrolling: touch;
       }
 
       .wrapper-inner {
